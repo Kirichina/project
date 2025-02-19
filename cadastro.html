@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Doação</title>
+</head>
+<body>
+    <h1>Cadastro de Doação</h1>
+    <form id="form01">
+        <label for = "nome">Nome Completo:</label>
+            <input type = "text" id = "nome" name="nome" required><br/><br/>
+            <label for = "telefone">Telefone:</label>
+            <input type = "text" id = "telefone" name="telefone" required maxlength=11><br/><br/>
+            <label for = "email">E-mail:</label>
+            <input type = "text" id = "email" name="email" required><br/><br/>
+            <label for = "tipo">Tipo Sanguíneo:</label>
+            <select id="tipo" name="tipo"> 
+                <option value="0"></option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select><br/><br/>
+                <button type="submit">SALVAR</button>
+                <button type="reset">LIMPAR</button>
+    </form>
+
+</body>
+</html>
