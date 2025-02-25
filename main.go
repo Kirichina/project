@@ -21,7 +21,7 @@ func abreCadastro(resposta http.ResponseWriter, requisicao *http.Request){
 		fmt.Println("Erro em cadastro", erro)
 		return
 	}
-	page.Execute(resposta, nil)
+	page.Execute(resposta, nil) 
 }
 
 func salvaDoador(resposta http.ResponseWriter, requisicao *http.Request){
@@ -47,8 +47,6 @@ func salvaDoador(resposta http.ResponseWriter, requisicao *http.Request){
 	}
 	page.Execute(resposta, nil)
 }
-
-
 
 
 func main() {
